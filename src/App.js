@@ -15,7 +15,7 @@ function App() {
 
   return (
     <div className={`${darkMode ? " bg-gray-900 text-white" : "bg-white text-black "} min-h-screen w-full `} >
-      <Navbar toggleSidebar={toggleSidebar} darkMode={darkMode} setDarkMode={setDarkMode}  className="w-full"/>
+      <Navbar toggleSidebar={toggleSidebar} darkMode={darkMode} setDarkMode={setDarkMode}  className="  w-full xs:w-full sm:w-full md:w-full"/>
 
       <div className={`${darkMode ? " bg-gray-900 text-white"  : "bg-white text-black "}flex ml-6 justify-end top-5 w-[20%] md:w-[15%] lg:w-[12%]`}>
         <Sidebar isOpen={sidebarOpen} />

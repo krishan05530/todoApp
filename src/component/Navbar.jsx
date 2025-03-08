@@ -5,7 +5,7 @@ import logo from  "../utilities/logo.png";
 
 const Navbar = ({ toggleSidebar, darkMode, setDarkMode }) => {
     return (
-        <nav className=' flex justify-between itmes-center shadow-md p-2'>
+        <nav className=' flex justify-between   itmes-center shadow-md p-2'>
             {/* left side f navbar */}
             <div className='flex items-center space-x-4'>
                 <button onClick={toggleSidebar} className="text-2xl p-2">
